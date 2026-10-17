@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Física UTFSM - Certamen 2</title>
+    <meta name="description" content="Repositorio de estudio para el Certamen 2 de Física en la UTFSM. Accede a resúmenes, ejercicios resueltos y clases.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Estudio Física UTFSM - Certamen 2">
+    <meta property="og:description" content="Repositorio de estudio con resúmenes, ejercicios y clases.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon (Emoji de libro como alternativa rápida) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📘</text></svg>">
+
+    <!-- Fuentes: Literata y Atkinson Hyperlegible -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Literata:opsz,wght@7..72,400..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Física - Certamen 2</h1>
+            <p class="subtitle">Universidad Técnica Federico Santa María</p>
+            
+            <div class="progress-container">
+                <div class="progress-info">
+                    <span id="progress-text">0 de 16 listos</span>
+                    <span id="progress-percent">0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="filters container" aria-label="Filtros de material">
+        <button class="filter-btn active" data-filter="todo">Todo</button>
+        <button class="filter-btn" data-filter="resumen">Resúmenes</button>
+        <button class="filter-btn" data-filter="ejercicios">Ejercicios</button>
+        <button class="filter-btn" data-filter="soluciones">Soluciones</button>
+        <button class="filter-btn" data-filter="clases">Clases</button>
+    </nav>
+
+    <main class="container" id="content-container">
+        <!-- El contenido se generará dinámicamente con JavaScript -->
+    </main>
+
+    <footer class="footer">
+        <p>Material de estudio recopilado y creado para preparación del Certamen 2.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
