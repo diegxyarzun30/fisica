@@ -2,22 +2,22 @@ const pdfData = [
     { id: 't1-res', theme: 1, type: 'resumen', title: 'Resumen Tema 1', path: 'pdfs/resumen-t1.pdf' },
     { id: 't1-eje', theme: 1, type: 'ejercicios', title: 'Ejercicios Tema 1', path: 'pdfs/ejercicios-t1.pdf' },
     { id: 't1-sol', theme: 1, type: 'soluciones', title: 'Soluciones Tema 1', path: 'pdfs/soluciones-t1.pdf' },
-    { id: 't1-c10', theme: 1, type: 'clases', title: 'Clase 10: Ley de Hooke y dinámica circular', path: 'pdfs/clases/Clase 10.pdf' },
-    { id: 't1-c11', theme: 1, type: 'clases', title: 'Clase 11: Dinámica en movimiento circular', path: 'pdfs/clases/Clase 11.pdf' },
+    { id: 't1-c10', theme: 1, type: 'clases', title: 'Clase 10: Ley de Hooke y dinámica circular', path: 'pdfs/clases/Clase10.pdf' },
+    { id: 't1-c11', theme: 1, type: 'clases', title: 'Clase 11: Dinámica en movimiento circular', path: 'pdfs/clases/Clase11.pdf' },
     
     { id: 't2-res', theme: 2, type: 'resumen', title: 'Resumen Tema 2', path: 'pdfs/resumen-t2.pdf' },
     { id: 't2-eje', theme: 2, type: 'ejercicios', title: 'Ejercicios Tema 2', path: 'pdfs/ejercicios-t2.pdf' },
     { id: 't2-sol', theme: 2, type: 'soluciones', title: 'Soluciones Tema 2', path: 'pdfs/soluciones-t2.pdf' },
-    { id: 't2-c12', theme: 2, type: 'clases', title: 'Clase 12: Trabajo y energía cinética', path: 'pdfs/clases/Clase 12.pdf' },
+    { id: 't2-c12', theme: 2, type: 'clases', title: 'Clase 12: Trabajo y energía cinética', path: 'pdfs/clases/Clase12.pdf' },
     
     { id: 't3-res', theme: 3, type: 'resumen', title: 'Resumen Tema 3', path: 'pdfs/resumen-t3.pdf' },
     { id: 't3-eje', theme: 3, type: 'ejercicios', title: 'Ejercicios Tema 3', path: 'pdfs/ejercicios-t3.pdf' },
     { id: 't3-sol', theme: 3, type: 'soluciones', title: 'Soluciones Tema 3', path: 'pdfs/soluciones-t3.pdf' },
-    { id: 't3-c13', theme: 3, type: 'clases', title: 'Clase 13: Trabajo por fuerzas conservativas', path: 'pdfs/clases/Clase 13.pdf' },
-    { id: 't3-c14', theme: 3, type: 'clases', title: 'Clase 14: Energía mecánica', path: 'pdfs/clases/Clase 14.pdf' },
-    { id: 't3-c15', theme: 3, type: 'clases', title: 'Clase 15: Ejercitación energía mecánica', path: 'pdfs/clases/Clase 15.pdf' },
+    { id: 't3-c13', theme: 3, type: 'clases', title: 'Clase 13: Trabajo por fuerzas conservativas', path: 'pdfs/clases/Clase13.pdf' },
+    { id: 't3-c14', theme: 3, type: 'clases', title: 'Clase 14: Energía mecánica', path: 'pdfs/clases/Clase14.pdf' },
+    { id: 't3-c15', theme: 3, type: 'clases', title: 'Clase 15: Ejercitación energía mecánica', path: 'pdfs/clases/Clase15.pdf' },
     
-    { id: 'c2-c17', theme: 4, type: 'clases', title: 'Clase 17: Ejercitación certamen 2', path: 'pdfs/clases/Clase 17.pdf' }
+    { id: 'c2-c17', theme: 4, type: 'clases', title: 'Clase 17: Ejercitación certamen 2', path: 'pdfs/clases/Clase17.pdf' }
 ];
 
 const themes = [
